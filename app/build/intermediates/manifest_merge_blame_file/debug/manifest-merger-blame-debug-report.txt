@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.diskominfo.sisga"
+4    android:versionCode="2000001"
+5    android:versionName="1.2.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->E:\Sisga\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Sisga\app\src\main\AndroidManifest.xml
+10    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->E:\Sisga\app\src\main\AndroidManifest.xml:5:5-65
+11-->E:\Sisga\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Sisga\app\src\main\AndroidManifest.xml:6:5-67
+12-->E:\Sisga\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <uses-feature
+14-->E:\Sisga\app\src\main\AndroidManifest.xml:8:5-10:36
+15        android:name="android.hardware.camera"
+15-->E:\Sisga\app\src\main\AndroidManifest.xml:9:9-47
+16        android:required="false" />
+16-->E:\Sisga\app\src\main\AndroidManifest.xml:10:9-33
+17    <uses-feature
+17-->E:\Sisga\app\src\main\AndroidManifest.xml:11:5-13:36
+18        android:name="android.hardware.camera.autofocus"
+18-->E:\Sisga\app\src\main\AndroidManifest.xml:12:9-57
+19        android:required="false" />
+19-->E:\Sisga\app\src\main\AndroidManifest.xml:13:9-33
+20    <uses-feature
+20-->E:\Sisga\app\src\main\AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.camera.front"
+21-->E:\Sisga\app\src\main\AndroidManifest.xml:15:9-53
+22        android:required="false" />
+22-->E:\Sisga\app\src\main\AndroidManifest.xml:16:9-33
+23    <uses-feature
+23-->E:\Sisga\app\src\main\AndroidManifest.xml:17:5-19:36
+24        android:name="android.hardware.camera.front.autofocus"
+24-->E:\Sisga\app\src\main\AndroidManifest.xml:18:9-63
+25        android:required="false" />
+25-->E:\Sisga\app\src\main\AndroidManifest.xml:19:9-33
+26
+27    <application
+27-->E:\Sisga\app\src\main\AndroidManifest.xml:21:5-118:19
+28        android:allowBackup="true"
+28-->E:\Sisga\app\src\main\AndroidManifest.xml:22:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:hardwareAccelerated="true"
+31-->E:\Sisga\app\src\main\AndroidManifest.xml:23:9-43
+32        android:icon="@mipmap/ic_launcher"
+32-->E:\Sisga\app\src\main\AndroidManifest.xml:24:9-43
+33        android:label="@string/app_name"
+33-->E:\Sisga\app\src\main\AndroidManifest.xml:25:9-41
+34        android:supportsRtl="false"
+34-->E:\Sisga\app\src\main\AndroidManifest.xml:26:9-36
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->E:\Sisga\app\src\main\AndroidManifest.xml:27:9-40
+37        <activity
+37-->E:\Sisga\app\src\main\AndroidManifest.xml:28:9-29:81
+38            android:name="org.diskominfo.sisga.activity.DetailSuratActivity"
+38-->E:\Sisga\app\src\main\AndroidManifest.xml:28:19-63
+39            android:parentActivityName="org.diskominfo.sisga.activity.DataSuratActivity" />
+39-->E:\Sisga\app\src\main\AndroidManifest.xml:29:13-69
+40        <activity
+40-->E:\Sisga\app\src\main\AndroidManifest.xml:30:9-32:75
+41            android:name="org.diskominfo.sisga.activity.DataSuratActivity"
+41-->E:\Sisga\app\src\main\AndroidManifest.xml:30:19-61
+42            android:label="@string/sppd_title"
+42-->E:\Sisga\app\src\main\AndroidManifest.xml:31:13-47
+43            android:parentActivityName="org.diskominfo.sisga.activity.DashboardSppdActivity" />
+43-->E:\Sisga\app\src\main\AndroidManifest.xml:32:13-73
+44        <activity
+44-->E:\Sisga\app\src\main\AndroidManifest.xml:33:9-35:71
+45            android:name="org.diskominfo.sisga.activity.DetailCutiActivity"
+45-->E:\Sisga\app\src\main\AndroidManifest.xml:34:13-56
+46            android:parentActivityName="org.diskominfo.sisga.activity.DataCutiActivity" />
+46-->E:\Sisga\app\src\main\AndroidManifest.xml:35:13-68
+47        <activity
+47-->E:\Sisga\app\src\main\AndroidManifest.xml:36:9-39:76
+48            android:name="org.diskominfo.sisga.activity.DataCutiActivity"
+48-->E:\Sisga\app\src\main\AndroidManifest.xml:37:13-54
+49            android:label="@string/cuti_title"
+49-->E:\Sisga\app\src\main\AndroidManifest.xml:38:13-47
+50            android:parentActivityName="org.diskominfo.sisga.activity.DashboardCutiActivity" />
+50-->E:\Sisga\app\src\main\AndroidManifest.xml:39:13-73
+51        <activity
+51-->E:\Sisga\app\src\main\AndroidManifest.xml:40:9-41:66
+52            android:name="org.diskominfo.sisga.activity.CheckActivity"
+52-->E:\Sisga\app\src\main\AndroidManifest.xml:40:19-57
+53            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+53-->E:\Sisga\app\src\main\AndroidManifest.xml:41:13-64
+54        <activity
+54-->E:\Sisga\app\src\main\AndroidManifest.xml:42:9-45:67
+55            android:name="org.diskominfo.sisga.activity.DataAbsenActivity"
+55-->E:\Sisga\app\src\main\AndroidManifest.xml:43:13-55
+56            android:label="@string/rekap_absensi_saya"
+56-->E:\Sisga\app\src\main\AndroidManifest.xml:44:13-55
+57            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+57-->E:\Sisga\app\src\main\AndroidManifest.xml:45:13-64
+58        <activity
+58-->E:\Sisga\app\src\main\AndroidManifest.xml:46:9-51:59
+59            android:name="org.diskominfo.sisga.facerecognition.FaceOutActivity"
+59-->E:\Sisga\app\src\main\AndroidManifest.xml:47:13-60
+60            android:label="@string/app_name"
+60-->E:\Sisga\app\src\main\AndroidManifest.xml:48:13-45
+61            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity"
+61-->E:\Sisga\app\src\main\AndroidManifest.xml:49:13-64
+62            android:screenOrientation="fullSensor"
+62-->E:\Sisga\app\src\main\AndroidManifest.xml:50:13-51
+63            android:theme="@style/AppTheme.NoActionBar" />
+63-->E:\Sisga\app\src\main\AndroidManifest.xml:51:13-56
+64        <activity
+64-->E:\Sisga\app\src\main\AndroidManifest.xml:52:9-57:59
+65            android:name="org.diskominfo.sisga.facerecognition.FaceRecordActivity"
+65-->E:\Sisga\app\src\main\AndroidManifest.xml:53:13-63
+66            android:label="@string/app_name"
+66-->E:\Sisga\app\src\main\AndroidManifest.xml:54:13-45
+67            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity"
+67-->E:\Sisga\app\src\main\AndroidManifest.xml:55:13-64
+68            android:screenOrientation="fullSensor"
+68-->E:\Sisga\app\src\main\AndroidManifest.xml:56:13-51
+69            android:theme="@style/AppTheme.NoActionBar" />
+69-->E:\Sisga\app\src\main\AndroidManifest.xml:57:13-56
+70        <activity
+70-->E:\Sisga\app\src\main\AndroidManifest.xml:58:9-60:80
+71            android:name="org.diskominfo.sisga.activity.DetailPengajuanSppdActivity"
+71-->E:\Sisga\app\src\main\AndroidManifest.xml:59:13-65
+72            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanCutiActivity" />
+72-->E:\Sisga\app\src\main\AndroidManifest.xml:60:13-77
+73        <activity
+73-->E:\Sisga\app\src\main\AndroidManifest.xml:61:9-66:59
+74            android:name="org.diskominfo.sisga.facerecognition.FaceInActivity"
+74-->E:\Sisga\app\src\main\AndroidManifest.xml:62:13-59
+75            android:label="@string/app_name"
+75-->E:\Sisga\app\src\main\AndroidManifest.xml:63:13-45
+76            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity"
+76-->E:\Sisga\app\src\main\AndroidManifest.xml:64:13-64
+77            android:screenOrientation="fullSensor"
+77-->E:\Sisga\app\src\main\AndroidManifest.xml:65:13-51
+78            android:theme="@style/AppTheme.NoActionBar" />
+78-->E:\Sisga\app\src\main\AndroidManifest.xml:66:13-56
+79        <activity
+79-->E:\Sisga\app\src\main\AndroidManifest.xml:67:9-70:76
+80            android:name="org.diskominfo.sisga.activity.DataPengajuanSppdActivity"
+80-->E:\Sisga\app\src\main\AndroidManifest.xml:68:13-63
+81            android:label="@string/pengajuan_surat_title"
+81-->E:\Sisga\app\src\main\AndroidManifest.xml:69:13-58
+82            android:parentActivityName="org.diskominfo.sisga.activity.DashboardSppdActivity" />
+82-->E:\Sisga\app\src\main\AndroidManifest.xml:70:13-73
+83        <activity
+83-->E:\Sisga\app\src\main\AndroidManifest.xml:71:9-73:80
+84            android:name="org.diskominfo.sisga.activity.DetailPengajuanCutiActivity"
+84-->E:\Sisga\app\src\main\AndroidManifest.xml:72:13-65
+85            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanSppdActivity" />
+85-->E:\Sisga\app\src\main\AndroidManifest.xml:73:13-77
+86        <activity
+86-->E:\Sisga\app\src\main\AndroidManifest.xml:74:9-77:76
+87            android:name="org.diskominfo.sisga.activity.DataPengajuanCutiActivity"
+87-->E:\Sisga\app\src\main\AndroidManifest.xml:75:13-63
+88            android:label="@string/pengajuan_cuti_title"
+88-->E:\Sisga\app\src\main\AndroidManifest.xml:76:13-57
+89            android:parentActivityName="org.diskominfo.sisga.activity.DashboardCutiActivity" />
+89-->E:\Sisga\app\src\main\AndroidManifest.xml:77:13-73
+90        <activity
+90-->E:\Sisga\app\src\main\AndroidManifest.xml:78:9-81:80
+91            android:name="org.diskominfo.sisga.activity.PengajuanSppdActivity"
+91-->E:\Sisga\app\src\main\AndroidManifest.xml:79:13-59
+92            android:label="@string/pengajuan_surat_title"
+92-->E:\Sisga\app\src\main\AndroidManifest.xml:80:13-58
+93            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanSppdActivity" />
+93-->E:\Sisga\app\src\main\AndroidManifest.xml:81:13-77
+94        <activity
+94-->E:\Sisga\app\src\main\AndroidManifest.xml:82:9-85:80
+95            android:name="org.diskominfo.sisga.activity.PengajuanCutiActivity"
+95-->E:\Sisga\app\src\main\AndroidManifest.xml:83:13-59
+96            android:label="@string/pengajuan_cuti_title"
+96-->E:\Sisga\app\src\main\AndroidManifest.xml:84:13-57
+97            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanCutiActivity" />
+97-->E:\Sisga\app\src\main\AndroidManifest.xml:85:13-77
+98        <activity
+98-->E:\Sisga\app\src\main\AndroidManifest.xml:86:9-89:67
+99            android:name="org.diskominfo.sisga.activity.DashboardSppdActivity"
+99-->E:\Sisga\app\src\main\AndroidManifest.xml:87:13-59
+100            android:label="@string/sppd_beranda"
+100-->E:\Sisga\app\src\main\AndroidManifest.xml:88:13-49
+101            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+101-->E:\Sisga\app\src\main\AndroidManifest.xml:89:13-64
+102        <activity
+102-->E:\Sisga\app\src\main\AndroidManifest.xml:90:9-93:67
+103            android:name="org.diskominfo.sisga.activity.DashboardCutiActivity"
+103-->E:\Sisga\app\src\main\AndroidManifest.xml:91:13-59
+104            android:label="@string/cuti_beranda"
+104-->E:\Sisga\app\src\main\AndroidManifest.xml:92:13-49
+105            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+105-->E:\Sisga\app\src\main\AndroidManifest.xml:93:13-64
+106        <activity
+106-->E:\Sisga\app\src\main\AndroidManifest.xml:94:9-97:67
+107            android:name="org.diskominfo.sisga.activity.AccountActivity"
+107-->E:\Sisga\app\src\main\AndroidManifest.xml:95:13-53
+108            android:label="@string/account_title"
+108-->E:\Sisga\app\src\main\AndroidManifest.xml:96:13-50
+109            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+109-->E:\Sisga\app\src\main\AndroidManifest.xml:97:13-64
+110        <activity
+110-->E:\Sisga\app\src\main\AndroidManifest.xml:98:9-101:67
+111            android:name="org.diskominfo.sisga.activity.AbsenKeluarActivity"
+111-->E:\Sisga\app\src\main\AndroidManifest.xml:99:13-57
+112            android:label="@string/absen_keluar"
+112-->E:\Sisga\app\src\main\AndroidManifest.xml:100:13-49
+113            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+113-->E:\Sisga\app\src\main\AndroidManifest.xml:101:13-64
+114        <activity
+114-->E:\Sisga\app\src\main\AndroidManifest.xml:102:9-105:67
+115            android:name="org.diskominfo.sisga.activity.AbsenMasukActivity"
+115-->E:\Sisga\app\src\main\AndroidManifest.xml:103:13-56
+116            android:label="@string/absen_masuk"
+116-->E:\Sisga\app\src\main\AndroidManifest.xml:104:13-48
+117            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+117-->E:\Sisga\app\src\main\AndroidManifest.xml:105:13-64
+118        <activity
+118-->E:\Sisga\app\src\main\AndroidManifest.xml:106:9-109:67
+119            android:name="org.diskominfo.sisga.activity.AboutActivity"
+119-->E:\Sisga\app\src\main\AndroidManifest.xml:107:13-51
+120            android:label="@string/about_title"
+120-->E:\Sisga\app\src\main\AndroidManifest.xml:108:13-48
+121            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+121-->E:\Sisga\app\src\main\AndroidManifest.xml:109:13-64
+122        <activity android:name="org.diskominfo.sisga.activity.LoginActivity" >
+122-->E:\Sisga\app\src\main\AndroidManifest.xml:110:9-116:20
+122-->E:\Sisga\app\src\main\AndroidManifest.xml:110:19-57
+123            <intent-filter>
+123-->E:\Sisga\app\src\main\AndroidManifest.xml:111:13-115:29
+124                <action android:name="android.intent.action.MAIN" />
+124-->E:\Sisga\app\src\main\AndroidManifest.xml:112:17-69
+124-->E:\Sisga\app\src\main\AndroidManifest.xml:112:25-66
+125
+126                <category android:name="android.intent.category.LAUNCHER" />
+126-->E:\Sisga\app\src\main\AndroidManifest.xml:114:17-77
+126-->E:\Sisga\app\src\main\AndroidManifest.xml:114:27-74
+127            </intent-filter>
+128        </activity>
+129        <activity android:name="org.diskominfo.sisga.activity.MainActivity" />
+129-->E:\Sisga\app\src\main\AndroidManifest.xml:117:9-59
+129-->E:\Sisga\app\src\main\AndroidManifest.xml:117:19-56
+130        <activity
+130-->[pub.devrel:easypermissions:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf83a828cc8235eab52e4e9cb2c93302\jetified-easypermissions-2.0.0\AndroidManifest.xml:12:9-16:66
+131            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+131-->[pub.devrel:easypermissions:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf83a828cc8235eab52e4e9cb2c93302\jetified-easypermissions-2.0.0\AndroidManifest.xml:13:13-86
+132            android:exported="false"
+132-->[pub.devrel:easypermissions:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf83a828cc8235eab52e4e9cb2c93302\jetified-easypermissions-2.0.0\AndroidManifest.xml:14:13-37
+133            android:label=""
+133-->[pub.devrel:easypermissions:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf83a828cc8235eab52e4e9cb2c93302\jetified-easypermissions-2.0.0\AndroidManifest.xml:15:13-29
+134            android:theme="@style/EasyPermissions.Transparent" />
+134-->[pub.devrel:easypermissions:2.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\cf83a828cc8235eab52e4e9cb2c93302\jetified-easypermissions-2.0.0\AndroidManifest.xml:16:13-63
+135    </application>
+136
+137</manifest>

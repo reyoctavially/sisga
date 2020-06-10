@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.diskominfo.sisga">
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.DetailSuratActivity"
+            android:parentActivityName=".activity.DataSuratActivity"></activity>
+        <activity android:name=".activity.DataSuratActivity"
+            android:label="@string/sppd_title"
+            android:parentActivityName=".activity.DashboardSppdActivity"/>
+        <activity
+            android:name=".activity.DetailCutiActivity"
+            android:parentActivityName=".activity.DataCutiActivity" />
+        <activity
+            android:name=".activity.DataCutiActivity"
+            android:label="@string/cuti_title"
+            android:parentActivityName=".activity.DashboardCutiActivity" />
+        <activity android:name=".activity.CheckActivity"
+            android:parentActivityName=".activity.MainActivity"/>
+        <activity
+            android:name=".activity.DataAbsenActivity"
+            android:label="@string/rekap_absensi_saya"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".facerecognition.FaceOutActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".facerecognition.FaceRecordActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DetailPengajuanSppdActivity"
+            android:parentActivityName=".activity.DataPengajuanCutiActivity" />
+        <activity
+            android:name=".facerecognition.FaceInActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DataPengajuanSppdActivity"
+            android:label="@string/pengajuan_surat_title"
+            android:parentActivityName=".activity.DashboardSppdActivity" />
+        <activity
+            android:name=".activity.DetailPengajuanCutiActivity"
+            android:parentActivityName=".activity.DataPengajuanSppdActivity" />
+        <activity
+            android:name=".activity.DataPengajuanCutiActivity"
+            android:label="@string/pengajuan_cuti_title"
+            android:parentActivityName=".activity.DashboardCutiActivity" />
+        <activity
+            android:name=".activity.PengajuanSppdActivity"
+            android:label="@string/pengajuan_surat_title"
+            android:parentActivityName=".activity.DataPengajuanSppdActivity" />
+        <activity
+            android:name=".activity.PengajuanCutiActivity"
+            android:label="@string/pengajuan_cuti_title"
+            android:parentActivityName=".activity.DataPengajuanCutiActivity" />
+        <activity
+            android:name=".activity.DashboardSppdActivity"
+            android:label="@string/sppd_beranda"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.DashboardCutiActivity"
+            android:label="@string/cuti_beranda"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AccountActivity"
+            android:label="@string/account_title"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AbsenKeluarActivity"
+            android:label="@string/absen_keluar"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AbsenMasukActivity"
+            android:label="@string/absen_masuk"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/about_title"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+    </application>
+
+</manifest>

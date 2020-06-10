@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.diskominfo.sisga"
+    android:versionCode="2000001"
+    android:versionName="1.2.3" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.diskominfo.sisga.activity.DetailSuratActivity"
+            android:parentActivityName="org.diskominfo.sisga.activity.DataSuratActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DataSuratActivity"
+            android:label="@string/sppd_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.DashboardSppdActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DetailCutiActivity"
+            android:parentActivityName="org.diskominfo.sisga.activity.DataCutiActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DataCutiActivity"
+            android:label="@string/cuti_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.DashboardCutiActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.CheckActivity"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DataAbsenActivity"
+            android:label="@string/rekap_absensi_saya"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.facerecognition.FaceOutActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="org.diskominfo.sisga.facerecognition.FaceRecordActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DetailPengajuanSppdActivity"
+            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanCutiActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.facerecognition.FaceInActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DataPengajuanSppdActivity"
+            android:label="@string/pengajuan_surat_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.DashboardSppdActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DetailPengajuanCutiActivity"
+            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanSppdActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DataPengajuanCutiActivity"
+            android:label="@string/pengajuan_cuti_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.DashboardCutiActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.PengajuanSppdActivity"
+            android:label="@string/pengajuan_surat_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanSppdActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.PengajuanCutiActivity"
+            android:label="@string/pengajuan_cuti_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.DataPengajuanCutiActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DashboardSppdActivity"
+            android:label="@string/sppd_beranda"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.DashboardCutiActivity"
+            android:label="@string/cuti_beranda"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.AccountActivity"
+            android:label="@string/account_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.AbsenKeluarActivity"
+            android:label="@string/absen_keluar"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.AbsenMasukActivity"
+            android:label="@string/absen_masuk"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="org.diskominfo.sisga.activity.AboutActivity"
+            android:label="@string/about_title"
+            android:parentActivityName="org.diskominfo.sisga.activity.MainActivity" />
+        <activity android:name="org.diskominfo.sisga.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.diskominfo.sisga.activity.MainActivity" />
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+    </application>
+
+</manifest>

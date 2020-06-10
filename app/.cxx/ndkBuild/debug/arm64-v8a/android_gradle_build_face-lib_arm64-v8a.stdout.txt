@@ -1,0 +1,8 @@
+[arm64-v8a] Compile++      : face-lib <= face-lib.cpp
+[arm64-v8a] Compile++      : face-lib <= Facebase.cpp
+[arm64-v8a] Compile++      : face-lib <= Eigenfaces.cpp
+[arm64-v8a] Compile++      : face-lib <= Fisherfaces.cpp
+[arm64-v8a] Compile++      : face-lib <= PCA.cpp
+[arm64-v8a] Compile++      : face-lib <= LDA.cpp
+[arm64-v8a] Prebuilt       : libopencv_java3.so <= E:/Sisga/app/src/main/cpp/../../../../OpenCV-android-sdk/sdk/native/jni/../libs/arm64-v8a/
+[arm64-v8a] SharedLibrary  : libface-lib.so

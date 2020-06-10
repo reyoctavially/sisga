@@ -1,0 +1,358 @@
+[
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_face_record.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\menu\\menu_face_record.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_cuti.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_cuti.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pengajuan_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_pengajuan_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_radius_coral.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\bg_radius_coral.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data_pengajuan_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_data_pengajuan_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v25_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-hdpi-v25\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_down_released.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\arrow_down_released.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_radius_red.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\bg_radius_red.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_hand.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_hand.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_absen.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\item_view_absen.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_sppd.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_sppd.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_info_outline.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_info_outline.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v25_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-xxxhdpi-v25\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_line.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_line.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard_sppd.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_dashboard_sppd.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_absen_keluar.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_absen_keluar.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_seek_bar_arrows.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\seek_bar_arrows.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_face_recognition_app.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_face_recognition_app.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check_circle.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_right.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\arrow_right.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_left.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\arrow_left.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_pengajuan_sppd.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_detail_pengajuan_sppd.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_absen_keluar.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_absen_keluar.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_rekap_absensi.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_rekap_absensi.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_whatsapp.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_whatsapp.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_detail_surat.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\item_view_detail_surat.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_front_white_24dp.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_camera_front_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_instagram.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_instagram.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_boy.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_boy.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data_absen.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_data_absen.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_dashboard_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_pengajuan.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\menu\\menu_pengajuan.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_data_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_pengajuan_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_detail_pengajuan_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_gmail.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_gmail.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_absen_masuk.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_absen_masuk.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_down_pressed.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\arrow_down_pressed.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v25_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-xxhdpi-v25\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_dashboard_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\item_view_dashboard_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data_surat.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_data_surat.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_find_previous_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-xxhdpi\\ic_find_previous_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_find_previous_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-hdpi\\ic_find_previous_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_find_next_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-hdpi\\ic_find_next_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_face.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_face.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_dashboard_sppd.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\item_view_dashboard_sppd.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_detail_pengajuan_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\item_view_detail_pengajuan_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_detail_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\item_view_detail_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_face_recognition_app.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\menu\\menu_face_recognition_app.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_find_previous_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-xhdpi\\ic_find_previous_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_find_next_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-mdpi\\ic_find_next_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v25_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-xhdpi-v25\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_sisga.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\menu\\menu_sisga.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_calendar.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_calendar.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_up_released.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\arrow_up_released.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v25_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-mdpi-v25\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_radius_green.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\bg_radius_green.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_absen_masuk.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_absen_masuk.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_up_pressed.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\arrow_up_pressed.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_account.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_find_previous_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-mdpi\\ic_find_previous_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pengajuan_sppd.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_pengajuan_sppd.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_find_next_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-xhdpi\\ic_find_next_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_detail_pengajuan_surat.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\item_view_detail_pengajuan_surat.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_rear_white_24dp.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_camera_rear_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_radius_dodger.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\bg_radius_dodger.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data_pengajuan_sppd.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_data_pengajuan_sppd.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_surat.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_detail_surat.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_photo.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_photo.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_cuti.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_detail_cuti.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_business_center.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\ic_business_center.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_girl.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable\\img_girl.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_find_next_mtrl_alpha.png.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\drawable-xxhdpi\\ic_find_next_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "E:\\Sisga\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_check.xml.flat",
+        "source": "E:\\Sisga\\app\\src\\main\\res\\layout\\activity_check.xml"
+    }
+]

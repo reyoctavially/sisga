@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "applicationId": "org.diskominfo.sisga",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "FULL_SPLIT",
+        "splits": [
+          {
+            "filterType": "ABI",
+            "value": "arm64-v8a"
+          }
+        ],
+        "versionCode": 2000001,
+        "versionName": "1.2.3",
+        "filterName": "arm64-v8a",
+        "outputFile": "Sisga-1.2.3-arm64-v8a-debug.apk",
+        "fullName": "arm64-v8aDebug",
+        "baseName": "arm64-v8a-debug",
+        "dirName": "arm64-v8a\\"
+      },
+      "path": "arm64-v8a/AndroidManifest.xml",
+      "properties": {
+        "packageId": "org.diskominfo.sisga",
+        "split": "",
+        "minSdkVersion": "15"
+      }
+    }
+  ]
+}
