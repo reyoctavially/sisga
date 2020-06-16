@@ -1,2 +1,2 @@
-# sisga
-Sistem Informasi Kepegawaian
+# API-Mahasiswa
+API mahasiswa create using Slim Framework
